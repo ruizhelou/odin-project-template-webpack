@@ -1,4 +1,4 @@
 import "./style.css";
-import 'normalize.css';
+import "normalize.css";
 
-console.log('hello world')
+console.log("hello world");
