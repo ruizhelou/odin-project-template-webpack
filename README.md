@@ -8,8 +8,21 @@
 * `npm install --save-dev webpack-dev-server` --> installs `webpack-dev-server` to handle live changes
 * `npm install normalize.css` --> installs `normalize.css`
 * `npm install --save-dev csv-loader xml-loader` --> installs `xml-loader` and `csv-loader`
-* `webpack.config.js` file
+* `webpack.config.js` configuration file
 * `.gitignore` Node template
 
 Bundle: `npx webpack`
 Run: `npx webpack serve`
+
+# Linter (ESLint)
+* `npm init @eslint/config@latest` --> installs `@eslint/js` and `eslint`
+* `eslint.config.mjs` configuration file
+
+Run: `npx eslint src/index.js`
+
+# Formatter (Prettier)
+* `npm install --save-dev --save-exact prettier` --> installs `prettier`
+* `.prettierrc` configuration file
+* `.prettierignore` configuration file specifies which files to not format
+
+Run: `npx prettier . --write`
