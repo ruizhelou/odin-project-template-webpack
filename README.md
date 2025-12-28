@@ -7,6 +7,7 @@
 * `npm install --save-dev html-loader` --> installs `html-loader`. Handles image files referenced in our HTML template
 * `npm install --save-dev webpack-dev-server` --> installs `webpack-dev-server` to handle live changes
 * `npm install normalize.css` --> installs `normalize.css`
+* `npm install --save-dev csv-loader xml-loader` --> installs `xml-loader` and `csv-loader`
 * `webpack.config.js` file
 * `.gitignore` Node template
 
